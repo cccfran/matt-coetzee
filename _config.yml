@@ -6,7 +6,7 @@
 name: Matthew Coetzee
 
 # Short bio or description (displayed in the header)
-description: Sociologist
+description: PhD Candidate in Sociology, University of Notre Dame
 
 #
 # Flags below are optional
@@ -81,3 +81,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - WEBSITE UPDATE_JC_MC.docx

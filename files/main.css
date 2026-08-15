@@ -26,6 +26,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #eee;
 }
 
+.profile-subtitle {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.profile-photo {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile-photo {
+    width: 240px;
+  }
+}
+
+#whoami .lead {
+  font-size: 18px;
+}
+
 pre, #projects-terminal {
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   background: #343434; /* Old browsers */
@@ -169,16 +190,30 @@ hr {
   text-decoration: none;
 }
 
+#projects-nav .research-subnav a {
+  padding-left: 30px;
+}
+
 iframe {
   display: inline-block;
 }
 
-#news {
+#news, #teaching-content {
+  font-size: 18px;
+}
+
+#news-content dd {
   font-size: 18px;
 }
 
 #projects {
   font-size: 18px;
+}
+
+#projects > p,
+#projects > .collapse,
+#projects > .media {
+  margin-left: 18px;
 }
 
 .media {

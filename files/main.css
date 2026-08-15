@@ -288,3 +288,27 @@ a {
   }
 
 .lowkey { color: #a1a1a1; font-style: italic; text-decoration: none; font-size: 18px; pointer-events: none; }
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 130px;
+  }
+
+  .mobile-contact {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .media img.sage-video-thumbnail {
+    width: 72vw;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 340px) {
+  body {
+    padding-top: 180px;
+  }
+}
